@@ -20,7 +20,7 @@ button, i {
 .yurist__back {
   width: 100%;
   padding: 250px 100px;
-  background-image: url(../img/yurist\ \(2\).jpg);
+  background-image: url(../img/yurist\ \(3\).jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -157,6 +157,7 @@ button, i {
   width: 80%;
   margin: 0 auto;
   display: flex;
+  align-items: stretch;
   justify-content: space-around;
 }
 
@@ -171,7 +172,7 @@ button, i {
   font-size: 25px;
   color: rgb(6, 6, 27);
   margin-bottom: 10px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .yurist3__span {
@@ -324,7 +325,7 @@ button, i {
 }
 @media screen and (max-width: 768px) {
   .yurist__general {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
   .price {
@@ -348,14 +349,22 @@ button, i {
   .price {
     width: 100%;
   }
+  .yurist__title {
+    font-size: 40px;
+  }
 }
 @media screen and (max-width: 420px) {
   .yurist3__box {
     width: 100%;
   }
   .yurist__general {
-    width: 100%;
+    width: 100% !important;
     padding: 0;
+  }
+  .yurist__title {
+    font-size: 25px;
+    width: 100%;
+    margin: 20px auto;
   }
   .yurist2__general {
     padding: 0;
@@ -364,6 +373,18 @@ button, i {
     width: 100%;
   }
   .yurist__text {
+    font-size: 15px;
+    width: 100%;
+  }
+  .yurist__btn {
+    width: 100%;
+    font-size: 12px;
+    padding: 15px 10px;
+    white-space: nowrap;
+  }
+}
+@media screen and (max-width: 360px) {
+  .yurist__general {
     width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
