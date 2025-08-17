@@ -34,7 +34,7 @@ button, i {
 }
 
 .yurist__general {
-  width: 30%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -322,6 +322,12 @@ button, i {
   .yurist4__label {
     margin: 0 auto;
   }
+  .yurist__back {
+    padding: 150px 50px;
+  }
+  .yurist__general {
+    width: 50%;
+  }
 }
 @media screen and (max-width: 768px) {
   .yurist__general {
@@ -330,6 +336,9 @@ button, i {
   }
   .price {
     padding: 30px 5px;
+  }
+  .yurist__back {
+    padding: 150px 10px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -351,6 +360,12 @@ button, i {
   }
   .yurist__title {
     font-size: 40px;
+  }
+  .yurist__text {
+    width: 90%;
+  }
+  .yurist__back {
+    padding: 150px 5px;
   }
 }
 @media screen and (max-width: 420px) {
@@ -374,7 +389,7 @@ button, i {
   }
   .yurist__text {
     font-size: 15px;
-    width: 100%;
+    width: 90%;
   }
   .yurist__btn {
     width: 100%;
