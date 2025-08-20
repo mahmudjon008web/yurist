@@ -8,7 +8,6 @@
 body{
     display: flex;
     flex-direction: column;
-    min-height: 500vh;
     font-family: 'Barlow', sans-serif;
 }
 button, i{
@@ -17,7 +16,7 @@ button, i{
 .yurist__back {
     width: 100%;
     padding: 250px 100px;
-    background-image: url(../img/yurist\ \(3\).JPG);
+    background-image: url(../img/bg.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
