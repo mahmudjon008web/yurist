@@ -4,6 +4,7 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     display: flex;
@@ -59,6 +60,7 @@ button, i{
 .yurist2__title {
     margin: 50px 0 50px 5% ;
     font-size: 30px;
+    text-align: center;
     color: rgb(6, 6, 27);
 }
 .yurist2__general {
@@ -141,14 +143,14 @@ button, i{
     width: 80%;
     margin: 0 auto;
     display: flex;
-    align-items: stretch;
+    align-items: center;
     justify-content: space-around;
 }
 .yurist3__box {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    width: 40%;
+    width: 60%;
 }
 .yurist3__subject {
     font-size: 25px;
